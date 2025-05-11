@@ -1,0 +1,8 @@
+[
+  { "id": "1", "type": "menu", "name": "Dashboard", "parent_id": "", "isAccessible": true },
+  { "id": "1.1", "type": "submenu", "name": "Overview", "parent_id": "1", "isAccessible": true },
+  { "id": "1.1.1", "type": "page", "name": "Overview Page", "parent_id": "1.1", "isAccessible": true },
+  { "id": "2", "type": "menu", "name": "Reports", "parent_id": "", "isAccessible": true },
+  { "id": "2.1", "type": "submenu", "name": "Financial", "parent_id": "2", "isAccessible": true },
+  { "id": "2.1.1", "type": "page", "name": "Income Report", "parent_id": "2.1", "isAccessible": true }
+]
