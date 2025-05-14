@@ -4,69 +4,69 @@
     "type": "menu",
     "parent_id": 0,
     "name": "Dashboard",
-    "isAccessable": true
+    "isAccessible": true
   },
   {
     "id": 2,
     "type": "menu",
     "parent_id": 0,
     "name": "Settings",
-    "isAccessable": true
+    "isAccessible": true
   },
   {
     "id": 3,
     "type": "submenu",
     "parent_id": 2,
     "name": "User Management",
-    "isAccessable": true
+    "isAccessible": true
   },
   {
     "id": 5,
     "type": "page",
     "parent_id": 3,
     "name": "Add User",
-    "isAccessable": true
+    "isAccessible": true
   },
   {
     "id": 6,
     "type": "page",
     "parent_id": 3,
     "name": "Edit User",
-    "isAccessable": false
+    "isAccessible": false
   },
   {
     "id": 4,
     "type": "submenu",
     "parent_id": 2,
     "name": "System Config",
-    "isAccessable": false
+    "isAccessible": false
   },
   {
     "id": 7,
     "type": "page",
     "parent_id": 4,
     "name": "General Settings",
-    "isAccessable": true
+    "isAccessible": true
   },
   {
     "id": 8,
     "type": "menu",
     "parent_id": 0,
     "name": "Reports",
-    "isAccessable": false
+    "isAccessible": false
   },
   {
     "id": 9,
     "type": "submenu",
     "parent_id": 8,
     "name": "Sales Reports",
-    "isAccessable": true
+    "isAccessible": true
   },
   {
     "id": 10,
     "type": "page",
     "parent_id": 9,
     "name": "Monthly Sales",
-    "isAccessable": true
+    "isAccessible": true
   }
 ]
