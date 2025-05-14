@@ -1,8 +1,72 @@
 [
-  { "id": "1", "type": "menu", "name": "Dashboard", "parent_id": "", "isAccessible": true },
-  { "id": "1.1", "type": "submenu", "name": "Overview", "parent_id": "1", "isAccessible": true },
-  { "id": "1.1.1", "type": "page", "name": "Overview Page", "parent_id": "1.1", "isAccessible": true },
-  { "id": "2", "type": "menu", "name": "Reports", "parent_id": "", "isAccessible": true },
-  { "id": "2.1", "type": "submenu", "name": "Financial", "parent_id": "2", "isAccessible": true },
-  { "id": "2.1.1", "type": "page", "name": "Income Report", "parent_id": "2.1", "isAccessible": true }
+  {
+    "id": 1,
+    "type": "menu",
+    "parent_id": 0,
+    "name": "Dashboard",
+    "isAccessable": true
+  },
+  {
+    "id": 2,
+    "type": "menu",
+    "parent_id": 0,
+    "name": "Settings",
+    "isAccessable": true
+  },
+  {
+    "id": 3,
+    "type": "submenu",
+    "parent_id": 2,
+    "name": "User Management",
+    "isAccessable": true
+  },
+  {
+    "id": 5,
+    "type": "page",
+    "parent_id": 3,
+    "name": "Add User",
+    "isAccessable": true
+  },
+  {
+    "id": 6,
+    "type": "page",
+    "parent_id": 3,
+    "name": "Edit User",
+    "isAccessable": false
+  },
+  {
+    "id": 4,
+    "type": "submenu",
+    "parent_id": 2,
+    "name": "System Config",
+    "isAccessable": false
+  },
+  {
+    "id": 7,
+    "type": "page",
+    "parent_id": 4,
+    "name": "General Settings",
+    "isAccessable": true
+  },
+  {
+    "id": 8,
+    "type": "menu",
+    "parent_id": 0,
+    "name": "Reports",
+    "isAccessable": false
+  },
+  {
+    "id": 9,
+    "type": "submenu",
+    "parent_id": 8,
+    "name": "Sales Reports",
+    "isAccessable": true
+  },
+  {
+    "id": 10,
+    "type": "page",
+    "parent_id": 9,
+    "name": "Monthly Sales",
+    "isAccessable": true
+  }
 ]
