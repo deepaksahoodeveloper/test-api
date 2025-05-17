@@ -1,0 +1,31 @@
+[
+  { "id": "home", "type": "menu", "title": "Home", "url": null, "parent_id": null },
+  { "id": "welcome", "type": "page", "title": "Welcome", "url": "/home/welcome", "parent_id": "home" },
+  { "id": "news", "type": "page", "title": "News", "url": "/home/news", "parent_id": "home" },
+
+  { "id": "about", "type": "menu", "title": "About", "url": null, "parent_id": null },
+  { "id": "company", "type": "page", "title": "Company", "url": "/about/company", "parent_id": "about" },
+  { "id": "team", "type": "page", "title": "Team", "url": "/about/team", "parent_id": "about" },
+
+  { "id": "products", "type": "menu", "title": "Products", "url": null, "parent_id": null },
+  { "id": "phones", "type": "page", "title": "Phones", "url": "/products/phones", "parent_id": "products" },
+  { "id": "laptops", "type": "page", "title": "Laptops", "url": "/products/laptops", "parent_id": "products" },
+  { "id": "accessories", "type": "page", "title": "Accessories", "url": "/products/accessories", "parent_id": "products" },
+
+  { "id": "services", "type": "menu", "title": "Services", "url": null, "parent_id": null },
+  { "id": "consulting", "type": "page", "title": "Consulting", "url": "/services/consulting", "parent_id": "services" },
+  { "id": "support", "type": "page", "title": "Support", "url": "/services/support", "parent_id": "services" },
+
+  { "id": "blog", "type": "menu", "title": "Blog", "url": null, "parent_id": null },
+  { "id": "latest", "type": "page", "title": "Latest Posts", "url": "/blog/latest", "parent_id": "blog" },
+  { "id": "categories", "type": "page", "title": "Categories", "url": "/blog/categories", "parent_id": "blog" },
+
+  { "id": "contact", "type": "menu", "title": "Contact", "url": null, "parent_id": null },
+  { "id": "email", "type": "page", "title": "Email Us", "url": "/contact/email", "parent_id": "contact" },
+  { "id": "map", "type": "page", "title": "Find Us", "url": "/contact/map", "parent_id": "contact" },
+
+  { "id": "settings", "type": "menu", "title": "Settings", "url": null, "parent_id": null },
+  { "id": "profile", "type": "page", "title": "Profile", "url": "/settings/profile", "parent_id": "settings" },
+  { "id": "privacy", "type": "page", "title": "Privacy", "url": "/settings/privacy", "parent_id": "settings" },
+  { "id": "security", "type": "page", "title": "Security", "url": "/settings/security", "parent_id": "settings" }
+]
