@@ -1,0 +1,37 @@
+[
+  { "id": "home", "type": "menu", "title": "Home", "url": null, "parent_id": null },
+  { "id": "about", "type": "submenu", "title": "About", "url": "/about", "parent_id": "home" },
+  { "id": "team", "type": "page", "title": "Team", "url": "/about/team", "parent_id": "about" },
+  { "id": "mission", "type": "page", "title": "Mission", "url": "/about/mission", "parent_id": "about" },
+
+  { "id": "contact", "type": "submenu", "title": "Contact", "url": "/contact", "parent_id": "home" },
+  { "id": "email", "type": "page", "title": "Email Us", "url": "/contact/email", "parent_id": "contact" },
+  { "id": "location", "type": "page", "title": "Our Location", "url": "/contact/location", "parent_id": "contact" },
+
+  { "id": "products", "type": "menu", "title": "Products", "url": null, "parent_id": null },
+  { "id": "electronics", "type": "submenu", "title": "Electronics", "url": "/products/electronics", "parent_id": "products" },
+  { "id": "phones", "type": "page", "title": "Phones", "url": "/products/electronics/phones", "parent_id": "electronics" },
+  { "id": "laptops", "type": "page", "title": "Laptops", "url": "/products/electronics/laptops", "parent_id": "electronics" },
+
+  { "id": "furniture", "type": "submenu", "title": "Furniture", "url": "/products/furniture", "parent_id": "products" },
+  { "id": "tables", "type": "page", "title": "Tables", "url": "/products/furniture/tables", "parent_id": "furniture" },
+  { "id": "chairs", "type": "page", "title": "Chairs", "url": "/products/furniture/chairs", "parent_id": "furniture" },
+
+  { "id": "services", "type": "menu", "title": "Services", "url": null, "parent_id": null },
+  { "id": "consulting", "type": "submenu", "title": "Consulting", "url": "/services/consulting", "parent_id": "services" },
+  { "id": "strategy", "type": "page", "title": "Strategy", "url": "/services/consulting/strategy", "parent_id": "consulting" },
+  { "id": "training", "type": "page", "title": "Training", "url": "/services/consulting/training", "parent_id": "consulting" },
+
+  { "id": "support", "type": "submenu", "title": "Support", "url": "/services/support", "parent_id": "services" },
+  { "id": "faq", "type": "page", "title": "FAQ", "url": "/services/support/faq", "parent_id": "support" },
+  { "id": "ticket", "type": "page", "title": "Submit Ticket", "url": "/services/support/ticket", "parent_id": "support" },
+
+  { "id": "settings", "type": "menu", "title": "Settings", "url": null, "parent_id": null },
+  { "id": "profile", "type": "submenu", "title": "Profile", "url": "/settings/profile", "parent_id": "settings" },
+  { "id": "account", "type": "page", "title": "Account Info", "url": "/settings/profile/account", "parent_id": "profile" },
+  { "id": "preferences", "type": "page", "title": "Preferences", "url": "/settings/profile/preferences", "parent_id": "profile" },
+
+  { "id": "security", "type": "submenu", "title": "Security", "url": "/settings/security", "parent_id": "settings" },
+  { "id": "password", "type": "page", "title": "Change Password", "url": "/settings/security/password", "parent_id": "security" },
+  { "id": "2fa", "type": "page", "title": "Two-Factor Auth", "url": "/settings/security/2fa", "parent_id": "security" }
+]
