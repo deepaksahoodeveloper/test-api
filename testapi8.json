@@ -1,0 +1,23 @@
+[
+  {
+    "id": "home",
+    "type": "menu",
+    "title": "Home",
+    "url": null,
+    "parent_id": null
+  },
+  {
+    "id": "about",
+    "type": "submenu",
+    "title": "About",
+    "url": "/about",
+    "parent_id": "home"
+  },
+  {
+    "id": "team",
+    "type": "page",
+    "title": "Team",
+    "url": "/about/team",
+    "parent_id": "about"
+  }
+]
