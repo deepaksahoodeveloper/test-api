@@ -1,0 +1,31 @@
+[
+  { "id": "home", "type": "menu", "title": "Home", "url": null, "parent_id": null, "icon": "home" },
+  { "id": "welcome", "type": "page", "title": "Welcome", "url": "/home/welcome", "parent_id": "home", "icon": "home_work" },
+  { "id": "news", "type": "page", "title": "News", "url": "/home/news", "parent_id": "home", "icon": "article" },
+
+  { "id": "about", "type": "menu", "title": "About", "url": null, "parent_id": null, "icon": "info" },
+  { "id": "company", "type": "page", "title": "Company", "url": "/about/company", "parent_id": "about", "icon": "business" },
+  { "id": "team", "type": "page", "title": "Team", "url": "/about/team", "parent_id": "about", "icon": "groups" },
+
+  { "id": "products", "type": "menu", "title": "Products", "url": null, "parent_id": null, "icon": "shopping_bag" },
+  { "id": "phones", "type": "page", "title": "Phones", "url": "/products/phones", "parent_id": "products", "icon": "smartphone" },
+  { "id": "laptops", "type": "page", "title": "Laptops", "url": "/products/laptops", "parent_id": "products", "icon": "laptop_mac" },
+  { "id": "accessories", "type": "page", "title": "Accessories", "url": "/products/accessories", "parent_id": "products", "icon": "headphones" },
+
+  { "id": "services", "type": "menu", "title": "Services", "url": null, "parent_id": null, "icon": "design_services" },
+  { "id": "consulting", "type": "page", "title": "Consulting", "url": "/services/consulting", "parent_id": "services", "icon": "psychology" },
+  { "id": "support", "type": "page", "title": "Support", "url": "/services/support", "parent_id": "services", "icon": "support_agent" },
+
+  { "id": "blog", "type": "menu", "title": "Blog", "url": null, "parent_id": null, "icon": "rss_feed" },
+  { "id": "latest", "type": "page", "title": "Latest Posts", "url": "/blog/latest", "parent_id": "blog", "icon": "dynamic_feed" },
+  { "id": "categories", "type": "page", "title": "Categories", "url": "/blog/categories", "parent_id": "blog", "icon": "category" },
+
+  { "id": "contact", "type": "menu", "title": "Contact", "url": null, "parent_id": null, "icon": "contact_page" },
+  { "id": "email", "type": "page", "title": "Email Us", "url": "/contact/email", "parent_id": "contact", "icon": "email" },
+  { "id": "map", "type": "page", "title": "Find Us", "url": "/contact/map", "parent_id": "contact", "icon": "map" },
+
+  { "id": "settings", "type": "menu", "title": "Settings", "url": null, "parent_id": null, "icon": "settings" },
+  { "id": "profile", "type": "page", "title": "Profile", "url": "/settings/profile", "parent_id": "settings", "icon": "person" },
+  { "id": "privacy", "type": "page", "title": "Privacy", "url": "/settings/privacy", "parent_id": "settings", "icon": "lock" },
+  { "id": "security", "type": "page", "title": "Security", "url": "/settings/security", "parent_id": "settings", "icon": "security" }
+]
