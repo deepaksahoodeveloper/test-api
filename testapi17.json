@@ -1,0 +1,22 @@
+[
+  { "id": "employee_hr", "type": "menu", "title": "Employee and HR", "url": "employee_hr", "parent_id": null, "is_accessible": true, "is_expanded": false, "index": 0 },
+
+  { "id": "employee_setup", "type": "submenu", "title": "Employee Setup", "url": "employee_setup", "parent_id": "employee_hr", "is_accessible": true, "is_expanded": false, "index": 1 },
+  { "id": "permission_group", "type": "page", "title": "Permission Group", "url": "employee_setup/permission_group", "parent_id": "employee_setup", "is_accessible": true, "is_expanded": false, "index": 2 },
+  { "id": "pages_group", "type": "page", "title": "Pages Group", "url": "employee_setup/pages_group", "parent_id": "employee_setup", "is_accessible": true, "is_expanded": false, "index": 3 },
+  { "id": "designation", "type": "page", "title": "Designation", "url": "employee_setup/designation", "parent_id": "employee_setup", "is_accessible": true, "is_expanded": false, "index": 4 },
+  { "id": "grade", "type": "page", "title": "Grade", "url": "employee_setup/grade", "parent_id": "employee_setup", "is_accessible": true, "is_expanded": false, "index": 5 },
+
+  { "id": "employee_onboarding", "type": "submenu", "title": "Employee Onboarding", "url": "employee_onboarding", "parent_id": "employee_hr", "is_accessible": true, "is_expanded": false, "index": 6 },
+  { "id": "employee_create", "type": "page", "title": "Create Employee", "url": "employee_onboarding/create", "parent_id": "employee_onboarding", "is_accessible": true, "is_expanded": false, "index": 7 },
+  { "id": "assign_access", "type": "page", "title": "Assign Access", "url": "employee_onboarding/assign_access", "parent_id": "employee_onboarding", "is_accessible": true, "is_expanded": false, "index": 8 },
+  { "id": "employee_approve", "type": "page", "title": "Approve Employee", "url": "employee_onboarding/approve", "parent_id": "employee_onboarding", "is_accessible": true, "is_expanded": false, "index": 9 },
+
+  { "id": "employee_manage", "type": "submenu", "title": "Manage Employees", "url": "employee_manage", "parent_id": "employee_hr", "is_accessible": true, "is_expanded": false, "index": 10 },
+  { "id": "employee_list", "type": "page", "title": "Employee List", "url": "employee_manage/list", "parent_id": "employee_manage", "is_accessible": true, "is_expanded": false, "index": 11 },
+  { "id": "manage_access", "type": "page", "title": "Manage Access", "url": "employee_manage/manage_access", "parent_id": "employee_manage", "is_accessible": true, "is_expanded": false, "index": 12 },
+  { "id": "activation", "type": "page", "title": "Activation", "url": "employee_manage/activation", "parent_id": "employee_manage", "is_accessible": true, "is_expanded": false, "index": 13 },
+
+  { "id": "security_settings", "type": "submenu", "title": "Security Settings", "url": "security_settings", "parent_id": "employee_hr", "is_accessible": true, "is_expanded": false, "index": 14 },
+  { "id": "login_password", "type": "page", "title": "Login & Password", "url": "security_settings/login_password", "parent_id": "security_settings", "is_accessible": true, "is_expanded": false, "index": 15 }
+]
