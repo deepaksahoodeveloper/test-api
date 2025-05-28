@@ -1,0 +1,27 @@
+[
+  { "id": "employee_hr", "type": "menu", "title": "Employee and HR", "parent_id": null, "is_accessible": true, "index": 0 },
+
+  { "id": "employee_setup", "type": "submenu", "title": "Employee Setup", "parent_id": "employee_hr", "is_accessible": true, "index": 1 },
+  { "id": "page_group", "type": "page", "title": "Page Group", "parent_id": "employee_setup", "is_accessible": true, "index": 2 },
+  { "id": "permission_group", "type": "page", "title": "Permission Group", "parent_id": "employee_setup", "is_accessible": true, "index": 3 },
+  { "id": "tag_i", "type": "page", "title": "Tag I", "parent_id": "employee_setup", "is_accessible": true, "index": 4 },
+  { "id": "tag_ii", "type": "page", "title": "Tag II", "parent_id": "employee_setup", "is_accessible": true, "index": 5 },
+
+  { "id": "employee_create", "type": "submenu", "title": "Employee Create", "parent_id": "employee_hr", "is_accessible": true, "index": 6 },
+  { "id": "employee_create_form", "type": "page", "title": "Employee Create", "parent_id": "employee_create", "is_accessible": true, "index": 7 },
+  { "id": "employee_access", "type": "page", "title": "Employee Access", "parent_id": "employee_create", "is_accessible": true, "index": 8 },
+  { "id": "employee_approve", "type": "page", "title": "Employee Approve", "parent_id": "employee_create", "is_accessible": true, "index": 9 },
+
+  { "id": "employee_manage", "type": "submenu", "title": "Employee Manage", "parent_id": "employee_hr", "is_accessible": true, "index": 10 },
+  { "id": "employee_list", "type": "page", "title": "Employee List", "parent_id": "employee_manage", "is_accessible": true, "index": 11 },
+  { "id": "employee_manage_page", "type": "page", "title": "Employee Manage", "parent_id": "employee_manage", "is_accessible": true, "index": 12 },
+
+  { "id": "employee_report", "type": "submenu", "title": "Employee Report", "parent_id": "employee_hr", "is_accessible": true, "index": 13 },
+  { "id": "employee_table_i", "type": "page", "title": "Employee Table I", "parent_id": "employee_report", "is_accessible": true, "index": 14 },
+  { "id": "employee_table_ii", "type": "page", "title": "Employee Table II", "parent_id": "employee_report", "is_accessible": true, "index": 15 },
+  { "id": "employee_table_iii", "type": "page", "title": "Employee Table III", "parent_id": "employee_report", "is_accessible": true, "index": 16 },
+
+  { "id": "employee_settings", "type": "submenu", "title": "Employee Settings", "parent_id": null, "is_accessible": true, "index": 17 },
+  { "id": "employee_settings_page", "type": "page", "title": "Employee Settings", "parent_id": "employee_settings", "is_accessible": true, "index": 18 },
+  { "id": "employee_security", "type": "page", "title": "Employee Security", "parent_id": "employee_settings", "is_accessible": true, "index": 19 }
+]
