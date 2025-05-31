@@ -1,7 +1,7 @@
 [
   { "order": 0, "id": "1", "parentId": "0", "levelType": "L3", "label": "Employee and HR", "routeKey": "KC7ZaA", "isAccessible": true },
   { "order": 1, "id": "2", "parentId": "1", "levelType": "L2", "label": "Setup", "routeKey": "MuqR3A", "isAccessible": true },
-  { "order": 2, "id": "3", "parentId": "2", "levelType": "L1", "label": "Page Group", "routeKey": "5glO3A", "isAccessible": true },
+  { "order": 2, "id": "3", "parentId": "2", "levelType": "L1", "label": "Page Group", "routeKey": "TglO3A", "isAccessible": true },
   { "order": 3, "id": "4", "parentId": "2", "levelType": "L1", "label": "Permission Group", "routeKey": "eSnR9A", "isAccessible": true },
   { "order": 4, "id": "5", "parentId": "2", "levelType": "L1", "label": "Flex Tag I", "routeKey": "r3ZcKw", "isAccessible": true },
   { "order": 5, "id": "6", "parentId": "2", "levelType": "L1", "label": "Flex Tag II", "routeKey": "OPN61w", "isAccessible": true },
