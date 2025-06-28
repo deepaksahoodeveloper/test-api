@@ -1,5 +1,5 @@
 [
-  { "type": "L3", "id": 1, "parent": "", "route": "KC7ZaA", "label": "Employee and HR", "index": 0 },
+  { "type": "L3", "id": 1, "parent": 0, "route": "KC7ZaA", "label": "Employee and HR", "index": 0 },
   { "type": "L2", "id": 2, "parent": 1, "route": "MuqR3A", "label": "Setup", "index": 1 },
   { "type": "L1", "id": 3, "parent": 2, "route": "5glO3A", "label": "Page Group", "index": 2 },
   { "type": "L1", "id": 4, "parent": 2, "route": "eSnR9A", "label": "Permission Group", "index": 3 },
